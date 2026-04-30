@@ -87,6 +87,7 @@ while run:
         monsters.update()
         text_lose = font1.render('Пропущенно:' +str(lose), 1, (255, 255, 255))
         window.blit(text_lose, (10, 20))
+        print(hello)
 
     display.update()
     clock.tick(55)
